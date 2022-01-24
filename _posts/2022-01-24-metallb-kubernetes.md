@@ -87,6 +87,6 @@ kubectl get pods
 curl http://<nginx-service-external-ip>
 ```
 
-**References:**
+**Reference:**
 * [https://metallb.universe.tf/installation/](https://metallb.universe.tf/installation/)
 

@@ -30,7 +30,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 100 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "^_^"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hello, I'am Shandrina."
+  bio    : "Hi, I'm Shandrina."
   location : "Indonesia"
   links:
     - label: "Website"
@@ -73,7 +73,7 @@ author:
 #    - label: "Github"
 #      icon: "fab fa-fw fa-github"
 #      url: "https://github.com/rinashan"
-    - label: LinkedIn
+    - label: Linkedin
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/shandrina-dwi-apriliyana-a30b241a5"
     - label: "Instagram"
@@ -86,7 +86,7 @@ author:
 
 footer:
   links:
-    - label: LinkedIn
+    - label: Linkedin
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/shandrina-dwi-apriliyana-a30b241a5"
     - label: "Instagram"

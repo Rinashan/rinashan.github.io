@@ -6,11 +6,8 @@ tags:
   - Jekyll
   - update
 ---
-
-Karena service load balancer hanya tersedia di cloud provider saja, ada salah satu solusi untuk membuat service load balancer yang bisa di terapkan di baremetal, yaitu dengan menggunakan MetalLB.
-
 ## Creating Working Directories Ingress 
-Buat directory untuk ingress, agar semua file konfigurasi terorganisir di dalam satu directory.
+Buat directory untuk ingress
 
 ```s
 mkdir ~/ingress
@@ -88,7 +85,7 @@ spec:
   - 192.168.130.101 # ip master node
 ...
 kubectl -n ingress-nginx patch svc ingress-nginx-controller --patch "$(cat external-ips.yaml)"
-kubectl get svc  ingress-nginx-controller -n ingress-ngin
+kubectl get svc  ingress-nginx-controller -n ingress-nginx
 ```
 
 ## Add host
@@ -105,7 +102,3 @@ kubectl get ingress
 curl web-nginx
 curl web-apache
 ```
-
-**References:**
-* [https://metallb.universe.tf/installation/](https://metallb.universe.tf/installation/)
-

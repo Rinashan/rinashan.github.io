@@ -302,6 +302,6 @@ kubectl cluster-info
 kubectl get nodes
 ```
 
-**References:**
+**Reference:**
 * [Set up a Highly Available Kubernetes Cluster using kubeadm](https://github.com/justmeandopensource/kubernetes/tree/master/kubeadm-ha-keepalived-haproxy/external-keepalived-haproxy)
 

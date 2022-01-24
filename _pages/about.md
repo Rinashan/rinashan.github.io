@@ -3,6 +3,4 @@ permalink: /about/
 title: "About"
 ---
 
-Hello 👋
-
-Hallo saya Shandrina
+I write here as a result of my learning exploration.
