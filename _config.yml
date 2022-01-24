@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Janmeppe.com
-email: janmeppe@gmail.com
-description: I write about data science, tech, note-taking, and productivity.
+title: Study Documentation
+email: aprilrinshan@gmail.com
+description: I write about technology.
 # this means to ignore newlines until "baseurl:"
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
-twitter_username: janmeppe
-github_username: rainymood
+twitter_username: shandrinadwi
+github_username: rinashan
 minimal_mistakes_skin: default
 search: true
 
@@ -59,43 +59,47 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Jan Meppe"
+  name   : "^_^"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Machine learning engineer in love with building digital products."
-  location : "Amsterdam"
+  bio    : "Hello, I'am Shandrina."
+  location : "Indonesia"
   links:
-    - label: "janmeppe.com"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.janmeppe.com"
-    - label: "@janmeppe"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/janmeppe"
-    - label: "rainymood"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/rainymood"
-    - label: "Linkedin"
+      url: "https://rinashan.github.io"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/shandrinadwi"
+#    - label: "Github"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/rinashan"
+    - label: LinkedIn
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jan-meppe-48491656/"
-  #   - label: "Instagram"
-  #     icon: "fab fa-fw fa-instagram"
-  #     url: "https://instagram.com/janmeppe"
+      url: "https://www.linkedin.com/in/shandrina-dwi-apriliyana-a30b241a5"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram-square"
+      url: "https://instagram.com/riinashan"
+    - label: Facebook
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/shandrina.apriliyana"
+
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/janmeppe"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/rainymood"
+    - label: LinkedIn
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/shandrina-dwi-apriliyana-a30b241a5"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/janmeppe"
+      icon: "fab fa-fw fa-instagram-square"
+      url: "https://instagram.com/riinashan"
+    - label: Facebook
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/shandrina.apriliyana"
 
 comments:
   provider: "disqus"
   disqus:
-    shortname: "janmeppeblog"
+    shortname: "shandrinadwiapriliyana "
 
 defaults:
   # _posts
@@ -117,14 +121,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-# teaser: /assets/images/500x300.jpg
-# logo: /assets/images/88x88.jpg
-# logo: /assets/images/88x352.jpg
-# logo: /assets/images/logo2.png
-# Logo next to janmeppe.com site title
-# logo: /assets/images/logo3.png
-# logo: /assets/images/logo5-32x32-trans.png
 
 category_archive:
   type: liquid
