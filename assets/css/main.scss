@@ -1,0 +1,212 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Add colour settings before "@import"
+
+// Define colors 
+$brian-clicked-link: #265aeb;
+$brian-unclicked-link: #1e38af;
+$brian-creme: #fafafa;
+$white: #ffffff;
+$color-link-grey: #3E4245;
+
+// Post headers
+// $link-color: $color-link-grey;
+$link-color: $brian-unclicked-link;
+
+// Change background of website to creme. From: https://brianlovin.com/
+// $background-color: $brian-creme;
+$background-color: $white;
+
+// https://nithiya.gitlab.io/development/pages-tweaks/
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
+// github syntax highlighting (base16) 
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#colors
+// https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
+// http://chriskempson.com/projects/base16/
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#colors
+
+/* default syntax highlighting (base16) */
+$base00: #263238;
+$base01: #2e3c43;
+$base02: #314549;
+$base03: #546e7a;
+$base04: #b2ccd6;
+$base05: #eeffff;
+$base06: #eeffff;
+$base07: #ffffff;
+$base08: #f07178;
+$base09: #f78c6c;
+$base0a: #ffcb6b;
+$base0b: #c3e88d;
+$base0c: #89ddff;
+$base0d: #82aaff;
+$base0e: #c792ea;
+$base0f: #ff5370;
+
+
+// $base00: #ffffff !important;
+// $base01: #f5f5f5 !important;
+// $base02: #c8c8fa !important;
+// $base03: #969896 !important;
+// $base04: #e8e8e8 !important;
+// $base05: #333333 !important;
+// $base06: #ffffff !important;
+// $base07: #ffffff !important;
+// $base08: #ed6a43 !important;
+// $base09: #0086b3 !important;
+// $base0A: #795da3 !important;
+// $base0B: #183691 !important;
+// $base0C: #183691 !important;
+// $base0D: #795da3 !important;
+// $base0E: #a71d5d !important;
+// $base0F: #333333 !important;
+
+// // scheme: "Default Light"
+// // author: "Chris Kempson (http://chriskempson.com)"
+// $base00: #f8f8f8 !important;
+// $base01: #e8e8e8 !important;
+// $base02: #d8d8d8 !important;
+// $base03: #b8b8b8 !important;
+// $base04: #585858 !important;
+// $base05: #383838 !important;
+// $base06: #282828 !important;
+// $base07: #181818 !important;
+// $base08: #ab4642 !important;
+// $base09: #dc9656 !important;
+// $base0A: #f7ca88 !important;
+// $base0B: #a1b56c !important;
+// $base0C: #86c1b9 !important;
+// $base0D: #7cafc2 !important;
+// $base0E: #ba8baf !important;
+// $base0F: #a16946 !important;
+
+// $base00: #181818 !important;
+// $base01: #282828 !important;
+// $base02: #383838 !important;
+// $base03: #585858 !important;
+// $base04: #b8b8b8 !important;
+// $base05: #d8d8d8 !important;
+// $base06: #e8e8e8 !important;
+// $base07: #f8f8f8 !important;
+// $base08: #ab4642 !important;
+// $base09: #dc9656 !important;
+// $base0A: #f7ca88 !important;
+// $base0B: #a1b56c !important;
+// $base0C: #86c1b9 !important;
+// $base0D: #7cafc2 !important;
+// $base0E: #ba8baf !important;
+// $base0F: #a16946 !important;
+
+// /* plum syntax highlighting (base16) */
+// // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#plum
+// $base00: #ffffff;
+// $base01: #e0e0e0;
+// $base02: #d0d0d0;
+// $base03: #b0b0b0;
+// $base04: #000000;
+// $base05: #101010;
+// $base06: #151515;
+// $base07: #202020;
+// $base08: #ff0086;
+// $base09: #fd8900;
+// $base0a: #aba800;
+// $base0b: #00c918;
+// $base0c: #1faaaa;
+// $base0d: #3777e6;
+// $base0e: #ad00a1;
+// $base0f: #cc6633;
+
+// /* solarized light syntax highlighting (base16) */
+// $base00: #fafafa !default;
+// $base01: #073642 !default;
+// $base02: #586e75 !default;
+// $base03: #657b83 !default;
+// $base04: #839496 !default;
+// $base05: #586e75 !default;
+// $base06: #eee8d5 !default;
+// $base07: #fdf6e3 !default;
+// $base08: #dc322f !default;
+// $base09: #cb4b16 !default;
+// $base0a: #b58900 !default;
+// $base0b: #859900 !default;
+// $base0c: #2aa198 !default;
+// $base0d: #268bd2 !default;
+// $base0e: #6c71c4 !default;
+// $base0f: #d33682 !default;
+
+@import "minimal-mistakes"; // main partials
+
+// To add custom styling: 
+//     The alternative is to copy /assets/css/main.scss to the same location
+//     locally. And then add any style overrides after @import "minimal-mistakes";.
+
+html {
+  font-size: 16px; // change to whatever
+
+  @include breakpoint($small){
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($medium) {
+    font-size: 18px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 20px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 22px; // change to whatever
+  }
+}
+
+// .masthead__menu-item {
+//   color: #612424;
+// }
+
+// .masthead {
+//   background-color: #612424;
+// }
+
+// .masthead_inner-wrap {
+//   background-color: #612424;
+// }
+
+
+// Set top navbar background colour to white. 
+// .greedy-nav a { 
+//   color: #ffffff;
+// }
+
+// Background of masthead inner wrap 
+// .masthead__inner-wrap {
+//   background-color: #00ffff; 
+// } 
+
+
+// Hide side title
+// .greedy-nav .site-title { opacity: 1; }
+
+
+// Code highlighting: https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/
+
+
+// .archive__item-title {
+//   position: relative;
+//   font-size: 50px;
+// } 
+
+
+// // // seems to work and then gets overwritten
+// .archive a {
+//   // color: inherit;
+//   text-decoration: none;
+// }
+
+// https://glitchbone.github.io/vscode-base16-term/#/tomorrow-night
