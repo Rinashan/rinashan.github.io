@@ -77,7 +77,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/shandrina-dwi-apriliyana-a30b241a5"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram-square"
+      icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/riinashan"
     - label: Facebook
       icon: "fab fa-fw fa-facebook"
@@ -90,16 +90,16 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/shandrina-dwi-apriliyana-a30b241a5"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram-square"
+      icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/riinashan"
     - label: Facebook
       icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/shandrina.apriliyana"
 
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "shandrinadwiapriliyana"
+#comments:
+#  provider: "disqus"
+#  disqus:
+#    shortname: "shandrinadwiapriliyana"
 
 defaults:
   # _posts
