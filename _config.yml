@@ -96,10 +96,11 @@ footer:
       icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/shandrina.apriliyana"
 
-#comments:
-#  provider: "disqus"
-#  disqus:
-#    shortname: "shandrinadwiapriliyana"
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "shandrinadwiapriliyana"
+  url: https://rinashan.github.io
 
 defaults:
   # _posts
