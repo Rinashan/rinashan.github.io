@@ -99,7 +99,7 @@ footer:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "shandrinadwiapriliyana "
+    shortname: "shandrinadwiapriliyana"
 
 defaults:
   # _posts
